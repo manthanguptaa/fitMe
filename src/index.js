@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router } from "react-router-dom";
 import './index.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
 import { createBrowserHistory } from "history";
 import App from './App';
 
