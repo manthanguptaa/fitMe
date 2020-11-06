@@ -1,0 +1,106 @@
+/* Reset margins */
+p, h1, h2, h3, h4, h5 {
+  margin: 0;
+}
+
+
+.App {
+  height: 100vh;
+}
+
+.App-container {
+  text-align: center;
+  height: 100%;
+  padding: 30px;
+  background-color: #dff9fb;
+  
+  color: #0984e3;
+}
+
+.display {
+  font-family: 'Fredoka One', cursive;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: inherit;
+}
+.button a:hover {
+  color: #6c5ce7;
+}
+
+p {
+  font-weight: 600;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home > * {
+  margin-bottom: 40px;
+  max-width: 55%;
+}
+
+.join {
+  display: flex;
+  align-items: center;
+}
+
+.join > * {
+  margin: 0 30px;
+}
+
+input {
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  border-style: solid;
+  font-size: 2em;
+  text-align: center;
+  color: #636e72;
+  border-color: #b2bec3;
+}
+input:focus {
+  outline-width: 0;
+}
+
+.button {
+  background-color: #0984e3;
+  color: white;
+  height: 75px;
+  width: 250px;
+  font-size: 1.5em;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button:hover {
+  background-color: #6c5ce7;
+}
+
+.secondary {
+  background-color: #74b9ff;
+}
+
+.footer {
+  margin-top: 60px;
+}
+
+.donate {
+  background-color: rgb(237, 106, 101);
+  color: white !important;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: .8em;
+}
+
+.donate:hover {
+  background-color: brightness(70%);
+}

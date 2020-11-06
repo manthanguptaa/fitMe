@@ -1,0 +1,1694 @@
+{
+    "bigtoepose.jpg": {
+        "score": 0.6,
+        "keypoints": [
+            {
+                "score": 0.4,
+                "part": "nose",
+                "position": {
+                    "x": 217.8,
+                    "y": 259.4
+                }
+            },
+            {
+                "score": 0,
+                "part": "leftEye",
+                "position": {
+                    "x": 177.9,
+                    "y": 229
+                }
+            },
+            {
+                "score": 0.6,
+                "part": "rightEye",
+                "position": {
+                    "x": 200.6,
+                    "y": 262.5
+                }
+            },
+            {
+                "score": 0.4,
+                "part": "leftEar",
+                "position": {
+                    "x": 138.8,
+                    "y": 260.5
+                }
+            },
+            {
+                "score": 0.1,
+                "part": "rightEar",
+                "position": {
+                    "x": 204.8,
+                    "y": 259.7
+                }
+            },
+            {
+                "score": 0.4,
+                "part": "leftShoulder",
+                "position": {
+                    "x": 158.6,
+                    "y": 194.6
+                }
+            },
+            {
+                "score": 0.5,
+                "part": "rightShoulder",
+                "position": {
+                    "x": 220.6,
+                    "y": 182.4
+                }
+            },
+            {
+                "score": 0.5,
+                "part": "leftElbow",
+                "position": {
+                    "x": 155.8,
+                    "y": 239
+                }
+            },
+            {
+                "score": 0.7,
+                "part": "rightElbow",
+                "position": {
+                    "x": 233.4,
+                    "y": 255
+                }
+            },
+            {
+                "score": 0.7,
+                "part": "leftWrist",
+                "position": {
+                    "x": 155.8,
+                    "y": 310.9
+                }
+            },
+            {
+                "score": 0.6,
+                "part": "rightWrist",
+                "position": {
+                    "x": 178.3,
+                    "y": 349.7
+                }
+            },
+            {
+                "score": 0.8,
+                "part": "leftHip",
+                "position": {
+                    "x": 237,
+                    "y": 45.6
+                }
+            },
+            {
+                "score": 0.9,
+                "part": "rightHip",
+                "position": {
+                    "x": 266.8,
+                    "y": 62.5
+                }
+            },
+            {
+                "score": 0.7,
+                "part": "leftKnee",
+                "position": {
+                    "x": 148.4,
+                    "y": 203.1
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightKnee",
+                "position": {
+                    "x": 261.3,
+                    "y": 218.5
+                }
+            },
+            {
+                "score": 0.9,
+                "part": "leftAnkle",
+                "position": {
+                    "x": 247.7,
+                    "y": 370.4
+                }
+            },
+            {
+                "score": 0.7,
+                "part": "rightAnkle",
+                "position": {
+                    "x": 195,
+                    "y": 363.3
+                }
+            }
+        ]
+    },
+    "chairpose.jpg": {
+        "score": 0.9,
+        "keypoints": [
+            {
+                "score": 0.9,
+                "part": "nose",
+                "position": {
+                    "x": 315.9,
+                    "y": 118.8
+                }
+            },
+            {
+                "score": 0.6,
+                "part": "leftEye",
+                "position": {
+                    "x": 311.1,
+                    "y": 111.2
+                }
+            },
+            {
+                "score": 0.9,
+                "part": "rightEye",
+                "position": {
+                    "x": 315.9,
+                    "y": 110.7
+                }
+            },
+            {
+                "score": 0.2,
+                "part": "leftEar",
+                "position": {
+                    "x": 311.1,
+                    "y": 111.7
+                }
+            },
+            {
+                "score": 0.9,
+                "part": "rightEar",
+                "position": {
+                    "x": 302.4,
+                    "y": 104.2
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftShoulder",
+                "position": {
+                    "x": 298.4,
+                    "y": 123
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightShoulder",
+                "position": {
+                    "x": 282.2,
+                    "y": 108.8
+                }
+            },
+            {
+                "score": 0.8,
+                "part": "leftElbow",
+                "position": {
+                    "x": 335.4,
+                    "y": 63.2
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightElbow",
+                "position": {
+                    "x": 312.7,
+                    "y": 86.1
+                }
+            },
+            {
+                "score": 0.9,
+                "part": "leftWrist",
+                "position": {
+                    "x": 353,
+                    "y": 48.5
+                }
+            },
+            {
+                "score": 0.9,
+                "part": "rightWrist",
+                "position": {
+                    "x": 336.4,
+                    "y": 60.6
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftHip",
+                "position": {
+                    "x": 260,
+                    "y": 196.9
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightHip",
+                "position": {
+                    "x": 252.1,
+                    "y": 202.2
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftKnee",
+                "position": {
+                    "x": 318.7,
+                    "y": 228.5
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightKnee",
+                "position": {
+                    "x": 325.8,
+                    "y": 217.5
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftAnkle",
+                "position": {
+                    "x": 281.1,
+                    "y": 289.2
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightAnkle",
+                "position": {
+                    "x": 284.8,
+                    "y": 256.9
+                }
+            }
+        ]
+    },
+    "dance.png": {
+        "score": 0.9,
+        "keypoints": [
+            {
+                "score": 0.9,
+                "part": "nose",
+                "position": {
+                    "x": 278.3,
+                    "y": 135.3
+                }
+            },
+            {
+                "score": 0.4,
+                "part": "leftEye",
+                "position": {
+                    "x": 280.2,
+                    "y": 131.7
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightEye",
+                "position": {
+                    "x": 276.1,
+                    "y": 122.2
+                }
+            },
+            {
+                "score": 0.1,
+                "part": "leftEar",
+                "position": {
+                    "x": 257,
+                    "y": 115.8
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightEar",
+                "position": {
+                    "x": 257.7,
+                    "y": 121
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftShoulder",
+                "position": {
+                    "x": 253.3,
+                    "y": 150.1
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightShoulder",
+                "position": {
+                    "x": 220,
+                    "y": 129.5
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftElbow",
+                "position": {
+                    "x": 289,
+                    "y": 176.5
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightElbow",
+                "position": {
+                    "x": 158.1,
+                    "y": 123.8
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftWrist",
+                "position": {
+                    "x": 351.6,
+                    "y": 172.7
+                }
+            },
+            {
+                "score": 0.9,
+                "part": "rightWrist",
+                "position": {
+                    "x": 115.4,
+                    "y": 96.4
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftHip",
+                "position": {
+                    "x": 181.8,
+                    "y": 202.3
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightHip",
+                "position": {
+                    "x": 158.5,
+                    "y": 192.2
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftKnee",
+                "position": {
+                    "x": 159.9,
+                    "y": 288.3
+                }
+            },
+            {
+                "score": 0.8,
+                "part": "rightKnee",
+                "position": {
+                    "x": 159.1,
+                    "y": 276.4
+                }
+            },
+            {
+                "score": 0.9,
+                "part": "leftAnkle",
+                "position": {
+                    "x": 153.6,
+                    "y": 362.9
+                }
+            },
+            {
+                "score": 0.9,
+                "part": "rightAnkle",
+                "position": {
+                    "x": 154.3,
+                    "y": 357.8
+                }
+            }
+        ]
+    },
+    "eagle.png": {
+        "score": 0.9,
+        "keypoints": [
+            {
+                "score": 1,
+                "part": "nose",
+                "position": {
+                    "x": 138.8,
+                    "y": 64.5
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftEye",
+                "position": {
+                    "x": 145.1,
+                    "y": 62.1
+                }
+            },
+            {
+                "score": 0.9,
+                "part": "rightEye",
+                "position": {
+                    "x": 138.1,
+                    "y": 55.6
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftEar",
+                "position": {
+                    "x": 167.5,
+                    "y": 76.1
+                }
+            },
+            {
+                "score": 0.1,
+                "part": "rightEar",
+                "position": {
+                    "x": 128.8,
+                    "y": 64
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftShoulder",
+                "position": {
+                    "x": 176.8,
+                    "y": 117.2
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightShoulder",
+                "position": {
+                    "x": 144.1,
+                    "y": 111.9
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftElbow",
+                "position": {
+                    "x": 122.5,
+                    "y": 114.9
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightElbow",
+                "position": {
+                    "x": 86.4,
+                    "y": 115.9
+                }
+            },
+            {
+                "score": 0.9,
+                "part": "leftWrist",
+                "position": {
+                    "x": 86.7,
+                    "y": 57.6
+                }
+            },
+            {
+                "score": 0.9,
+                "part": "rightWrist",
+                "position": {
+                    "x": 75.4,
+                    "y": 67.7
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftHip",
+                "position": {
+                    "x": 185.5,
+                    "y": 244.4
+                }
+            },
+            {
+                "score": 0.9,
+                "part": "rightHip",
+                "position": {
+                    "x": 174.7,
+                    "y": 240.2
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftKnee",
+                "position": {
+                    "x": 93.8,
+                    "y": 286.6
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightKnee",
+                "position": {
+                    "x": 119,
+                    "y": 282.4
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftAnkle",
+                "position": {
+                    "x": 168.7,
+                    "y": 370.4
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightAnkle",
+                "position": {
+                    "x": 186.5,
+                    "y": 340.9
+                }
+            }
+        ]
+    },
+    "garland.png": {
+        "score": 1,
+        "keypoints": [
+            {
+                "score": 1,
+                "part": "nose",
+                "position": {
+                    "x": 182.2,
+                    "y": 111
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftEye",
+                "position": {
+                    "x": 193.8,
+                    "y": 99.9
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightEye",
+                "position": {
+                    "x": 172.8,
+                    "y": 99.9
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftEar",
+                "position": {
+                    "x": 211,
+                    "y": 108.7
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightEar",
+                "position": {
+                    "x": 158,
+                    "y": 106.2
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftShoulder",
+                "position": {
+                    "x": 231,
+                    "y": 167.7
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightShoulder",
+                "position": {
+                    "x": 131.5,
+                    "y": 166.5
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftElbow",
+                "position": {
+                    "x": 255.6,
+                    "y": 240.9
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightElbow",
+                "position": {
+                    "x": 98.6,
+                    "y": 235.9
+                }
+            },
+            {
+                "score": 0.9,
+                "part": "leftWrist",
+                "position": {
+                    "x": 217,
+                    "y": 250.6
+                }
+            },
+            {
+                "score": 0.9,
+                "part": "rightWrist",
+                "position": {
+                    "x": 155,
+                    "y": 256.2
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftHip",
+                "position": {
+                    "x": 215.2,
+                    "y": 284.4
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightHip",
+                "position": {
+                    "x": 156.7,
+                    "y": 279
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftKnee",
+                "position": {
+                    "x": 281.1,
+                    "y": 247.4
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightKnee",
+                "position": {
+                    "x": 72.1,
+                    "y": 251.5
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftAnkle",
+                "position": {
+                    "x": 242.4,
+                    "y": 336.5
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightAnkle",
+                "position": {
+                    "x": 130.4,
+                    "y": 335.6
+                }
+            }
+        ]
+    },
+    "gate.png": {
+        "score": 0.8,
+        "keypoints": [
+            {
+                "score": 0.9,
+                "part": "nose",
+                "position": {
+                    "x": 188.9,
+                    "y": 144.4
+                }
+            },
+            {
+                "score": 0.9,
+                "part": "leftEye",
+                "position": {
+                    "x": 192.2,
+                    "y": 133.3
+                }
+            },
+            {
+                "score": 0.4,
+                "part": "rightEye",
+                "position": {
+                    "x": 181.2,
+                    "y": 145
+                }
+            },
+            {
+                "score": 0.8,
+                "part": "leftEar",
+                "position": {
+                    "x": 208.7,
+                    "y": 131
+                }
+            },
+            {
+                "score": 0.2,
+                "part": "rightEar",
+                "position": {
+                    "x": 181.7,
+                    "y": 154.8
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftShoulder",
+                "position": {
+                    "x": 239.8,
+                    "y": 155.2
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightShoulder",
+                "position": {
+                    "x": 210.2,
+                    "y": 193.2
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftElbow",
+                "position": {
+                    "x": 207.5,
+                    "y": 93
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightElbow",
+                "position": {
+                    "x": 185.1,
+                    "y": 260.5
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftWrist",
+                "position": {
+                    "x": 184.4,
+                    "y": 56.1
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightWrist",
+                "position": {
+                    "x": 146.4,
+                    "y": 328.1
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftHip",
+                "position": {
+                    "x": 265,
+                    "y": 268.1
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightHip",
+                "position": {
+                    "x": 276.6,
+                    "y": 278.2
+                }
+            },
+            {
+                "score": 0.6,
+                "part": "leftKnee",
+                "position": {
+                    "x": 246.6,
+                    "y": 349.4
+                }
+            },
+            {
+                "score": 0.8,
+                "part": "rightKnee",
+                "position": {
+                    "x": 290,
+                    "y": 345
+                }
+            },
+            {
+                "score": 0.4,
+                "part": "leftAnkle",
+                "position": {
+                    "x": 159.8,
+                    "y": 348.6
+                }
+            },
+            {
+                "score": 0.3,
+                "part": "rightAnkle",
+                "position": {
+                    "x": 290.4,
+                    "y": 417.9
+                }
+            }
+        ]
+    },
+    "half-moon.png": {
+        "score": 0.9,
+        "keypoints": [
+            {
+                "score": 1,
+                "part": "nose",
+                "position": {
+                    "x": 87.2,
+                    "y": 231
+                }
+            },
+            {
+                "score": 0.9,
+                "part": "leftEye",
+                "position": {
+                    "x": 84.3,
+                    "y": 225.3
+                }
+            },
+            {
+                "score": 0.8,
+                "part": "rightEye",
+                "position": {
+                    "x": 76.9,
+                    "y": 232
+                }
+            },
+            {
+                "score": 0.9,
+                "part": "leftEar",
+                "position": {
+                    "x": 86.5,
+                    "y": 207.3
+                }
+            },
+            {
+                "score": 0.3,
+                "part": "rightEar",
+                "position": {
+                    "x": 82,
+                    "y": 234.1
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftShoulder",
+                "position": {
+                    "x": 110.9,
+                    "y": 181.3
+                }
+            },
+            {
+                "score": 0.9,
+                "part": "rightShoulder",
+                "position": {
+                    "x": 133.4,
+                    "y": 248.9
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftElbow",
+                "position": {
+                    "x": 111.7,
+                    "y": 136.6
+                }
+            },
+            {
+                "score": 0.9,
+                "part": "rightElbow",
+                "position": {
+                    "x": 144,
+                    "y": 287.1
+                }
+            },
+            {
+                "score": 0.9,
+                "part": "leftWrist",
+                "position": {
+                    "x": 391.6,
+                    "y": 150
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightWrist",
+                "position": {
+                    "x": 108.8,
+                    "y": 356.1
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftHip",
+                "position": {
+                    "x": 229.2,
+                    "y": 168
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightHip",
+                "position": {
+                    "x": 209.2,
+                    "y": 216.2
+                }
+            },
+            {
+                "score": 0.9,
+                "part": "leftKnee",
+                "position": {
+                    "x": 222,
+                    "y": 294.9
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightKnee",
+                "position": {
+                    "x": 227.5,
+                    "y": 289.6
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftAnkle",
+                "position": {
+                    "x": 230,
+                    "y": 383.5
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightAnkle",
+                "position": {
+                    "x": 129.8,
+                    "y": 367.1
+                }
+            }
+        ]
+    },
+    "parivrtta-trikonasana.png": {
+        "score": 0.9,
+        "keypoints": [
+            {
+                "score": 0.9,
+                "part": "nose",
+                "position": {
+                    "x": 59,
+                    "y": 213.9
+                }
+            },
+            {
+                "score": 0.9,
+                "part": "leftEye",
+                "position": {
+                    "x": 55.6,
+                    "y": 208.7
+                }
+            },
+            {
+                "score": 0.8,
+                "part": "rightEye",
+                "position": {
+                    "x": 50.5,
+                    "y": 224.9
+                }
+            },
+            {
+                "score": 0.8,
+                "part": "leftEar",
+                "position": {
+                    "x": 70.9,
+                    "y": 196.3
+                }
+            },
+            {
+                "score": 0.4,
+                "part": "rightEar",
+                "position": {
+                    "x": 60,
+                    "y": 230.8
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftShoulder",
+                "position": {
+                    "x": 90.4,
+                    "y": 172.9
+                }
+            },
+            {
+                "score": 0.9,
+                "part": "rightShoulder",
+                "position": {
+                    "x": 101,
+                    "y": 246.3
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftElbow",
+                "position": {
+                    "x": 117.6,
+                    "y": 123.8
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightElbow",
+                "position": {
+                    "x": 120.6,
+                    "y": 295.9
+                }
+            },
+            {
+                "score": 0.9,
+                "part": "leftWrist",
+                "position": {
+                    "x": 109.6,
+                    "y": 66.3
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightWrist",
+                "position": {
+                    "x": 107.6,
+                    "y": 374.4
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftHip",
+                "position": {
+                    "x": 208.4,
+                    "y": 206.3
+                }
+            },
+            {
+                "score": 0.9,
+                "part": "rightHip",
+                "position": {
+                    "x": 203.2,
+                    "y": 236
+                }
+            },
+            {
+                "score": 0.8,
+                "part": "leftKnee",
+                "position": {
+                    "x": 166.9,
+                    "y": 295.9
+                }
+            },
+            {
+                "score": 0.9,
+                "part": "rightKnee",
+                "position": {
+                    "x": 275.9,
+                    "y": 298.9
+                }
+            },
+            {
+                "score": 0.3,
+                "part": "leftAnkle",
+                "position": {
+                    "x": 117.4,
+                    "y": 368.9
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightAnkle",
+                "position": {
+                    "x": 346.7,
+                    "y": 365.6
+                }
+            }
+        ]
+    },
+    "tadasana.png": {
+        "score": 1,
+        "keypoints": [
+            {
+                "score": 1,
+                "part": "nose",
+                "position": {
+                    "x": 147.9,
+                    "y": 55.8
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftEye",
+                "position": {
+                    "x": 155.1,
+                    "y": 45.6
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightEye",
+                "position": {
+                    "x": 139.5,
+                    "y": 46.6
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftEar",
+                "position": {
+                    "x": 168.1,
+                    "y": 52.9
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightEar",
+                "position": {
+                    "x": 129.5,
+                    "y": 54
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftShoulder",
+                "position": {
+                    "x": 186.8,
+                    "y": 102
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightShoulder",
+                "position": {
+                    "x": 111.7,
+                    "y": 101.3
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftElbow",
+                "position": {
+                    "x": 198.7,
+                    "y": 166.5
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightElbow",
+                "position": {
+                    "x": 95.6,
+                    "y": 165.1
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftWrist",
+                "position": {
+                    "x": 212.8,
+                    "y": 217.6
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightWrist",
+                "position": {
+                    "x": 77.7,
+                    "y": 215.3
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftHip",
+                "position": {
+                    "x": 169.5,
+                    "y": 210
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightHip",
+                "position": {
+                    "x": 125.8,
+                    "y": 210.2
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftKnee",
+                "position": {
+                    "x": 165.8,
+                    "y": 295.4
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightKnee",
+                "position": {
+                    "x": 130.7,
+                    "y": 295.3
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftAnkle",
+                "position": {
+                    "x": 160.2,
+                    "y": 378.3
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightAnkle",
+                "position": {
+                    "x": 138.4,
+                    "y": 381.9
+                }
+            }
+        ]
+    },
+    "vrksasana.png": {
+        "score": 1,
+        "keypoints": [
+            {
+                "score": 1,
+                "part": "nose",
+                "position": {
+                    "x": 157.1,
+                    "y": 112.2
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftEye",
+                "position": {
+                    "x": 165.7,
+                    "y": 110.2
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightEye",
+                "position": {
+                    "x": 152.7,
+                    "y": 107.6
+                }
+            },
+            {
+                "score": 0.9,
+                "part": "leftEar",
+                "position": {
+                    "x": 180.2,
+                    "y": 117.3
+                }
+            },
+            {
+                "score": 0.9,
+                "part": "rightEar",
+                "position": {
+                    "x": 137.9,
+                    "y": 115.2
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftShoulder",
+                "position": {
+                    "x": 172.3,
+                    "y": 146
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightShoulder",
+                "position": {
+                    "x": 134.3,
+                    "y": 136.6
+                }
+            },
+            {
+                "score": 0.9,
+                "part": "leftElbow",
+                "position": {
+                    "x": 208.7,
+                    "y": 99.7
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightElbow",
+                "position": {
+                    "x": 98.2,
+                    "y": 103.6
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftWrist",
+                "position": {
+                    "x": 224.3,
+                    "y": 57.2
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightWrist",
+                "position": {
+                    "x": 93.5,
+                    "y": 55
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftHip",
+                "position": {
+                    "x": 157.8,
+                    "y": 240.7
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightHip",
+                "position": {
+                    "x": 127.1,
+                    "y": 222
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftKnee",
+                "position": {
+                    "x": 154.6,
+                    "y": 314.7
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightKnee",
+                "position": {
+                    "x": 56.4,
+                    "y": 255.1
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftAnkle",
+                "position": {
+                    "x": 143.5,
+                    "y": 373.9
+                }
+            },
+            {
+                "score": 0.9,
+                "part": "rightAnkle",
+                "position": {
+                    "x": 121.4,
+                    "y": 277.2
+                }
+            }
+        ]
+    },
+    "warrior-I.png": {
+        "score": 0.8,
+        "keypoints": [
+            {
+                "score": 0.8,
+                "part": "nose",
+                "position": {
+                    "x": 205.2,
+                    "y": 171.4
+                }
+            },
+            {
+                "score": 0.7,
+                "part": "leftEye",
+                "position": {
+                    "x": 214.7,
+                    "y": 163.2
+                }
+            },
+            {
+                "score": 0.6,
+                "part": "rightEye",
+                "position": {
+                    "x": 203.9,
+                    "y": 155.1
+                }
+            },
+            {
+                "score": 0.7,
+                "part": "leftEar",
+                "position": {
+                    "x": 221.1,
+                    "y": 165.7
+                }
+            },
+            {
+                "score": 0.6,
+                "part": "rightEar",
+                "position": {
+                    "x": 199.1,
+                    "y": 161.8
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftShoulder",
+                "position": {
+                    "x": 189.9,
+                    "y": 191.2
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightShoulder",
+                "position": {
+                    "x": 182.5,
+                    "y": 175
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftElbow",
+                "position": {
+                    "x": 191.2,
+                    "y": 123.6
+                }
+            },
+            {
+                "score": 0.9,
+                "part": "rightElbow",
+                "position": {
+                    "x": 191.9,
+                    "y": 122.3
+                }
+            },
+            {
+                "score": 0.7,
+                "part": "leftWrist",
+                "position": {
+                    "x": 282.4,
+                    "y": 343.8
+                }
+            },
+            {
+                "score": 0.8,
+                "part": "rightWrist",
+                "position": {
+                    "x": 195.9,
+                    "y": 59.1
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftHip",
+                "position": {
+                    "x": 161.8,
+                    "y": 269.5
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightHip",
+                "position": {
+                    "x": 184.7,
+                    "y": 273.6
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftKnee",
+                "position": {
+                    "x": 79.8,
+                    "y": 276.3
+                }
+            },
+            {
+                "score": 0.9,
+                "part": "rightKnee",
+                "position": {
+                    "x": 238.5,
+                    "y": 321.1
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftAnkle",
+                "position": {
+                    "x": 70,
+                    "y": 361.2
+                }
+            },
+            {
+                "score": 0.6,
+                "part": "rightAnkle",
+                "position": {
+                    "x": 306.4,
+                    "y": 386.1
+                }
+            }
+        ]
+    },
+    "warrior-II.png": {
+        "score": 0.9,
+        "keypoints": [
+            {
+                "score": 1,
+                "part": "nose",
+                "position": {
+                    "x": 231,
+                    "y": 55.1
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftEye",
+                "position": {
+                    "x": 245.7,
+                    "y": 48.8
+                }
+            },
+            {
+                "score": 0.9,
+                "part": "rightEye",
+                "position": {
+                    "x": 230.4,
+                    "y": 44
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftEar",
+                "position": {
+                    "x": 273.7,
+                    "y": 59.4
+                }
+            },
+            {
+                "score": 0.3,
+                "part": "rightEar",
+                "position": {
+                    "x": 232.5,
+                    "y": 63.8
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftShoulder",
+                "position": {
+                    "x": 299.9,
+                    "y": 110.4
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightShoulder",
+                "position": {
+                    "x": 216.1,
+                    "y": 99.1
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftElbow",
+                "position": {
+                    "x": 379.1,
+                    "y": 105.9
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightElbow",
+                "position": {
+                    "x": 163.7,
+                    "y": 101.5
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftWrist",
+                "position": {
+                    "x": 453.3,
+                    "y": 94.1
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightWrist",
+                "position": {
+                    "x": 82.2,
+                    "y": 82.9
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftHip",
+                "position": {
+                    "x": 284.7,
+                    "y": 236.6
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightHip",
+                "position": {
+                    "x": 224.8,
+                    "y": 230.5
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftKnee",
+                "position": {
+                    "x": 347.6,
+                    "y": 287.2
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightKnee",
+                "position": {
+                    "x": 121.4,
+                    "y": 246.5
+                }
+            },
+            {
+                "score": 1,
+                "part": "leftAnkle",
+                "position": {
+                    "x": 412.5,
+                    "y": 360.8
+                }
+            },
+            {
+                "score": 1,
+                "part": "rightAnkle",
+                "position": {
+                    "x": 123,
+                    "y": 351.1
+                }
+            }
+        ]
+    }
+}
