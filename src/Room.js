@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 
-
+import {ProductConsumer,ProductProvider} from "./components/context"
 import { useToasts } from "react-toast-notifications";
 
 
@@ -20,7 +20,7 @@ const SIMILARITY_THRESHOLD_OKAY = 0.8;
 let i=0;
 
 function Room() {
-  const { addToast } = useToasts();
+  // const { addToast } = useToasts();
   /* ============================================ INIT STATE ============================================ */
   // Game State
   const [ready, setReady] = useState(false);
@@ -37,38 +37,38 @@ function Room() {
   /* ============================================ WEBSOCKETS ============================================ */
 
   // Log message output and change app state
-  // useEffect(() => {
-  //   setCorrectFrames(0);
-  //   setTotalFrames(0);
-  //   setImageName("tadasana.png");
-  //   setImagePose(POSE_MAP["tadasana.png"]);
-  // }, []);
+  useEffect(() => {
+    setCorrectFrames(0);
+    setTotalFrames(0);
+    setImageName("tadasana.png");
+    setImagePose(POSE_MAP["tadasana.png"]);
+  }, []);
 
   // Submit Score
   //const [i, seti] = useState(0);
 
-  const poses = ['chairpose.jpg', 'dance.png', 'eagle.png', 'garland.png', 'gate.png', 'half-moon.png', 'parivrtta-trikonasana.png', 'tadasana.png', ' vrksasana.png'];
-  useEffect(() => {
-    //seti(0);
-    // setCorrectFrames(0);
-    // setTotalFrames(0);
-    const score = Math.round((correctFrames / totalFrames) * 10000);
-    // console.log("scoring");
-    // console.log(correctFrames);
-    // console.log(totalFrames);
-    // console.log(score);
-    var changePoses = setInterval(function () {
+  // const poses = ['chairpose.jpg', 'dance.png', 'eagle.png', 'garland.png', 'gate.png', 'half-moon.png', 'parivrtta-trikonasana.png', 'tadasana.png', ' vrksasana.png'];
+  // useEffect(() => {
+  //   //seti(0);
+  //   // setCorrectFrames(0);
+  //   // setTotalFrames(0);
+  //   const score = Math.round((correctFrames / totalFrames) * 10000);
+  //   // console.log("scoring");
+  //   // console.log(correctFrames);
+  //   // console.log(totalFrames);
+  //   // console.log(score);
+  //   var changePoses = setInterval(function () {
       
-      //seti(i+1);
-      i=i+1
-      console.log("i : ",i);
-      if (i === poses.length-1) {
-        clearInterval(changePoses);
-      }
-      setImageName(poses[i]);
-      setImagePose(POSE_MAP[poses[i]]);
-    }, 10000)
-  }, []);
+  //     //seti(i+1);
+  //     i=i+1
+  //     console.log("i : ",i);
+  //     if (i === poses.length-1) {
+  //       clearInterval(changePoses);
+  //     }
+  //     setImageName(poses[i]);
+  //     setImagePose(POSE_MAP[poses[i]]);
+  //   }, 10000)
+  // }, []);
 
   /* ============================================ TWILIO ============================================ */
 
@@ -130,8 +130,13 @@ function Room() {
       </h1>
     );
   };
-
   return (
+    <ProductProvider>
+    <ProductConsumer>
+{(value) => {
+               const {img}=value.detailProduct
+  return (
+
     <div className="room">
       <div className="header">
         <h1 className="title display">
@@ -146,7 +151,7 @@ function Room() {
             className="reference-img"
             ref={imageRef}
             alt="Yoga pose to copy."
-            src={`${process.env.PUBLIC_URL}/img/poses/${imageName}`}
+            src={img}
           />
         }
 
@@ -183,6 +188,14 @@ function Room() {
         </div>
       </div>
     </div>
+    )}}
+
+    </ProductConsumer>
+    </ProductProvider>
+          
+   
+
+
   );
 }
 export default Room;

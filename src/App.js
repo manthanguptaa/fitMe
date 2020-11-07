@@ -5,6 +5,7 @@ import ScrollReveal from './utils/ScrollReveal';
 import ReactGA from 'react-ga';
 
 
+
 // Layouts
 import LayoutDefault from './layouts/LayoutDefault';
 
@@ -15,6 +16,7 @@ import Dashboard from './components/dashbord'
 import { AuthProvider } from './contexts/AuthContext';
 import Login from './components/Login';
 import ImagePose from './components/ImagePose'
+import Room from './Room'
 
 // Initialize Google Analytics
 ReactGA.initialize(process.env.REACT_APP_GA_CODE);
@@ -49,6 +51,7 @@ const App = () => {
                 <AppRoute exact path="/dashbord" component={Dashboard} />
                 <AppRoute exact path="/imgpose" component={ImagePose} />
                 <AppRoute exact path="/Login" component={Login} />
+                <AppRoute exact path="/room" component={Room} />
               </Switch>
             )} />
         </AuthProvider>

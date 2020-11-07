@@ -2,7 +2,7 @@ import React from "react"
 import "./dashbord.css"
 import { Link } from "react-router-dom"
 import ImagePose from "./ImagePose"
-var username = "Username";
+var username = "Sahil";
 var usertitle = "ConnectHub/Employee";
 var currentView = "overview";
 
@@ -44,13 +44,13 @@ class Dashboard extends React.Component {
                         <PerformanceView />
                     </div>
                 );
-            case "Excercise":
-                return (
-                    <div id="dashboard">
-                        <Sidebar setView={this.setView} />
-                        <AdministratorView />
-                    </div>
-                );
+            // case "Excercise":
+            //     return (
+            //         <div id="dashboard">
+            //             <Sidebar setView={this.setView} />
+            //             <AdministratorView />
+            //         </div>
+            //     );
         }
     }
 }
@@ -71,7 +71,7 @@ class Sidebar extends React.Component {
                     item1={"Overview"}
                     item2={"Schedule"}
                     item3={"Performance"}
-                    item4={"Administration"}
+                    // item4={"Administration"}
                     setView={this.props.setView}
                 />
                 <div>
@@ -98,6 +98,7 @@ class UserProfileView extends React.Component {
                 />
                 <h3 id="display-name">{this.props.username}</h3>
                 <p className="subtitle">{this.props.usertitle}</p>
+            
             </div>
         );
     }
@@ -111,7 +112,7 @@ class SidebarMenu extends React.Component {
             overview: "active-item",
             schedule: "inactive-item",
             performance: "inactive-item",
-            Excercise: "inactive-item"
+            // Excercise: "inactive-item"
         };
         this.setBtnAndView = this.setBtnAndView.bind(this);
     }
@@ -233,32 +234,32 @@ class PerformanceView extends React.Component {
     }
 }
 
-class AdministratorView extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-    render() {
-        return (
-            <div class="dash-view">
+// class AdministratorView extends React.Component {
+//     constructor(props) {
+//         super(props);
+//     }
+//     render() {
+//         return (
+//             <div class="dash-view">
 
-                <h2 class="view-heading">Select the Yoga Pose ....</h2>
+//                 <h2 class="view-heading">Select the Yoga Pose ....</h2>
 
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-4">
+//                 <div class="container">
+//                     <div class="row">
+//                         <div class="col-md-4">
 
                     
-                        </div>
-                    </div>
-                </div>
-            </div>
+//                         </div>
+//                     </div>
+//                 </div>
+//             </div>
 
 
 
 
-        );
-    }
-}
+//         );
+//     }
+// }
 
 class DashboardCard extends React.Component {
     constructor(props) {
@@ -281,11 +282,11 @@ class DashboardCard extends React.Component {
                     <div class="dash-card">
                         <PerformanceCardContent />
                     </div>);
-            case "Excercise":
-                return (
-                    <div class="dash-card">
-                        <AdministratorCardContent />
-                    </div>);
+            // case "Excercise":
+            //     return (
+            //         <div class="dash-card">
+            //             <AdministratorCardContent />
+            //         </div>);
         }
     }
 }
@@ -297,19 +298,19 @@ const OverviewCardContent = () => (
         <div id="stats-container">
             <div>
                 <h5 class="lg-nmbr">13</h5>
-                <p>Sales this week.</p>
+                <p>Streaks this week.</p>
             </div>
             <div>
                 <h5 class="lg-nmbr">87%</h5>
-                <p>Of your targets hit.</p>
+                <p>Accuracy till now.</p>
             </div>
             <div>
                 <h5 class="lg-nmbr">5</h5>
-                <p>Sales this week.</p>
+                <p>Number of hours practiced.</p>
             </div>
             <div>
                 <h5 class="lg-nmbr">45</h5>
-                <p>Sales this week.</p>
+                <p>Weekly target streaks.</p>
             </div>
         </div>
         
@@ -351,12 +352,12 @@ const PerformanceCardContent = () => (
         <p class="card-subtitle">You need to focus on conversion.</p>
     </div>
 );
-const AdministratorCardContent = () => (
-    <div>
-        <h4 class="card-heading">Select the Excercise You want to DO...</h4>
+// const AdministratorCardContent = () => (
+//     <div>
+//         <h4 class="card-heading">Select the Excercise You want to DO...</h4>
 
-    </div>
-);
+//     </div>
+// );
 
 
  
