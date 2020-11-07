@@ -13,6 +13,7 @@ import Home from './views/Home';
 import Signup from './components/signup'
 import Dashbord from './components/dashbord'
 import { AuthProvider } from './contexts/AuthContext';
+import Login from './components/Login';
 
 // Initialize Google Analytics
 ReactGA.initialize(process.env.REACT_APP_GA_CODE);
@@ -30,7 +31,7 @@ const App = () => {
   useEffect(() => {
     const page = location.pathname;
     document.body.classList.add('is-loaded')
-    childRef.current.init();
+    //childRef.current.init();
     trackPage(page);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [location]);
@@ -45,6 +46,7 @@ const App = () => {
                 <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
                 <AppRoute exact path="/Signup" component={Signup} />
                 <AppRoute exact path="/dashbord" component={Dashbord} />
+                <AppRoute exact path="/Login" component={Login} />
               </Switch>
             )} />
         </AuthProvider>
