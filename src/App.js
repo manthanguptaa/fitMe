@@ -11,7 +11,7 @@ import LayoutDefault from './layouts/LayoutDefault';
 // Views 
 import Home from './views/Home';
 import Signup from './components/signup'
-import Dashbord from './components/dashbord'
+import Dashboard from './components/dashbord'
 import { AuthProvider } from './contexts/AuthContext';
 import Login from './components/Login';
 
@@ -45,7 +45,7 @@ const App = () => {
               <Switch>
                 <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
                 <AppRoute exact path="/Signup" component={Signup} />
-                <AppRoute exact path="/dashbord" component={Dashbord} />
+                <AppRoute exact path="/dashbord" component={Dashboard} />
                 <AppRoute exact path="/Login" component={Login} />
               </Switch>
             )} />

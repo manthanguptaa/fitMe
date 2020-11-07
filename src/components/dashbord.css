@@ -1,0 +1,154 @@
+body {
+    padding: 0;
+    margin: 0;
+      color: #2d3436;
+    background: #ecf0f1 ;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #dashboard {
+    display: flex;
+    height: 100vh;
+  }
+  .sidebar-menu {
+    text-align: center;
+    align-items: center;
+    background: white;
+    height: 100%;
+    padding: 15px 0px 10px 0px;
+    flex: 1 1 300px;
+    overflow: hidden;
+  }
+  
+  #profile-pic {
+    margin-top: 30px;
+    width: 5em;
+    border: none;
+    border-radius: 50%;
+    transition: all 0.3s;
+  }
+  #profile-pic:hover {
+    box-shadow: 1px 3px 12px 0px rgba(0, 0, 0, 0.45);
+  }
+  
+  #display-name {
+    margin: 0;
+    margin-top: 10px;
+    font-size: 2em;
+    font-weight: 600;
+      color:#4834d4;
+  }
+  
+  .subtitle {
+    margin: 0px 0px 5px 0px;
+  }
+  
+  .menu-items {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .inactive-item {
+    padding: 20px 0px 20px 20px;
+    width: 100%;
+    text-align: left;
+    display: inline-block;
+    color: black !important;
+    background: rgba(0, 0, 0, 0.03);
+    transition: all 0.3s;
+    text-decoration: none;
+  }
+  .active-item {
+    padding: 20px 0px 20px 20px;
+    width: 100%;
+    text-align: left;
+    display: inline-block;
+    color: black !important;
+    background: rgba(0, 0, 0, 0.03);
+    transition: all 0.3s;
+    text-decoration: none;
+    border-left: 2px solid #4d00ff;
+    background: rgba(77, 0, 255, 0.08);
+  }
+  .menu-items a:hover {
+    border-left: 5px solid #4d00ff;
+    background: rgba(77, 0, 255, 0.11);
+  }
+  
+  .full-btn {
+    margin: 10px;
+    width: 270px;
+    height: 40px;
+    background: #4834d4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+      transition: all 0.3s;
+  } .full-btn:hover {
+      background: rgba(95, 15, 255, 0.76);
+  }
+  .dash-view {
+    margin: 40px;
+    flex: 5 5 calc(100vw - 300px);
+  }
+  .view-heading {
+    font-size: 2em;
+    font-weight: 600;
+    color:white;
+  }
+  .dash-card {
+    margin: 20px 0px 0px 0px;
+      padding: 20px 0px 0px 30px;
+    min-height: 200px;
+    width: 95%;
+    border-radius: 20px;
+    background: white;
+    color:black;
+  }
+  .card-heading {
+      font-weight: 500;
+      font-size: 1.1em;
+      color:black;
+      
+  }
+  .card-subtitle {
+      font-size: 0.955em;
+  }
+  .table-container {
+      text-align: center;
+      display: flex;
+      flex-direction: row;
+      flex-basis: 100%;
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: space-evenly;
+      align-items: center;
+  }
+  #stats-container {
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+  }
+  table {
+      width: 100%;
+      padding-top: 20px;
+  }
+  th {
+      font-weight: 500;
+      color: #4834d4;
+  }
+  .lg-nmbr {
+      font-size: 3em;
+      color: #4834d4;
+  }
+  
