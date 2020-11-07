@@ -14,6 +14,7 @@ import Signup from './components/signup'
 import Dashboard from './components/dashbord'
 import { AuthProvider } from './contexts/AuthContext';
 import Login from './components/Login';
+import ImagePose from './components/ImagePose'
 
 // Initialize Google Analytics
 ReactGA.initialize(process.env.REACT_APP_GA_CODE);
@@ -46,6 +47,7 @@ const App = () => {
                 <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
                 <AppRoute exact path="/Signup" component={Signup} />
                 <AppRoute exact path="/dashbord" component={Dashboard} />
+                <AppRoute exact path="/imgpose" component={ImagePose} />
                 <AppRoute exact path="/Login" component={Login} />
               </Switch>
             )} />

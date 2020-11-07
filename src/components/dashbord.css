@@ -96,6 +96,20 @@ body {
   } .full-btn:hover {
       background: rgba(95, 15, 255, 0.76);
   }
+  .fulls-btn {
+    margin: 10px;
+    margin-top:10%;
+    margin-left: 10%;
+    width: 270px;
+    height: 40px;
+    background: #4834d4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+      transition: all 0.3s;
+  } .fulls-btn:hover {
+      background: rgba(95, 15, 255, 0.76);
+  }
   .dash-view {
     margin: 40px;
     flex: 5 5 calc(100vw - 300px);

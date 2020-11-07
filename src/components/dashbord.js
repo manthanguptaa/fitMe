@@ -1,13 +1,11 @@
 import React from "react"
 import "./dashbord.css"
 import { Link } from "react-router-dom"
-var username = "Lodu Sahil";
+import ImagePose from "./ImagePose"
+var username = "Username";
 var usertitle = "ConnectHub/Employee";
 var currentView = "overview";
-const poses = ['chairpose.jpg', 'dance.png', 'eagle.png', 'garland.png', 'gate.png', 'half-moon.png', 'parivrtta-trikonasana.png', 'tadasana.png', 'vrksasana.png'];
-const images = poses.map(image => {
-    return <img key={image} src={require(`../assets/images/poses/${image}`)} width='200' height='200' className="img-responsive float-left" />
-});
+
 class Dashboard extends React.Component {
     constructor(props) {
         super(props);
@@ -105,6 +103,7 @@ class UserProfileView extends React.Component {
     }
 }
 
+
 class SidebarMenu extends React.Component {
     constructor(props) {
         super(props);
@@ -195,6 +194,12 @@ class Overview extends React.Component {
             <div class="dash-view">
                 <h2 class="view-heading">Here's your breakdown.</h2>
                 <DashboardCard />
+                <Link to="/imgpose"><button  className="fulls-btn">
+                        Let's Start!
+					</button>
+
+                </Link>
+                
             </div>
         );
     }
@@ -242,10 +247,7 @@ class AdministratorView extends React.Component {
                     <div class="row">
                         <div class="col-md-4">
 
-                            <Link onClick={() => console.log(images)} to="">
-                                {images}
-
-                            </Link>
+                    
                         </div>
                     </div>
                 </div>
@@ -310,7 +312,9 @@ const OverviewCardContent = () => (
                 <p>Sales this week.</p>
             </div>
         </div>
+        
     </div>
+        
 );
 const ScheduleCardContent = () => (
     <div>
@@ -353,6 +357,9 @@ const AdministratorCardContent = () => (
 
     </div>
 );
+
+
+ 
 
 
 export default Dashboard
