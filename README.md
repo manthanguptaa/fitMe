@@ -72,13 +72,13 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 
     $ git clone https://github.com/Manthan109/fitMe.git
     $ cd fitMe
-    $ yarn install
+    $ yarn install  or  npm install
 
 
 ## Running the project
 
-    $ yarn start
+    $ yarn start or npm start
 
 ## Simple build for production
 
-    $ yarn build
+    $ yarn build or npm build
