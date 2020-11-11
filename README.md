@@ -17,6 +17,10 @@ With the help of tensorflow, we are able to estimate the user’s pose and compa
 
 This eliminates the need for any trainer or expert’s intervention to know the correct technique for performing yogasanas and rectifying them. You just need your laptop which has a webcam to run this awesome application! The massive library of poses makes it perfect for everyone, be it beginners or professionals. 
 
+## Working Explained
+
+![FitMe Flowchart](https://user-images.githubusercontent.com/42516515/98796679-a8dd3980-2431-11eb-8c37-689aa42fd8b3.png)
+
 
 ## Project Snippets
 
