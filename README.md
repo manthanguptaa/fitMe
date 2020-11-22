@@ -25,7 +25,9 @@ This eliminates the need for any trainer or expert’s intervention to know the 
 ![signup](https://user-images.githubusercontent.com/42516515/98462700-27d93480-21dc-11eb-8406-eea32e96c582.PNG)
 ![login](https://user-images.githubusercontent.com/42516515/98462701-290a6180-21dc-11eb-84a3-de04a3efc734.PNG)
 ![dashboard](https://user-images.githubusercontent.com/42516515/98462703-2ad42500-21dc-11eb-8454-aaecbbc2bee8.PNG)
-![main](https://user-images.githubusercontent.com/42516515/98462689-20b22680-21dc-11eb-825e-5d0450d12c06.PNG)
+![1](https://user-images.githubusercontent.com/42516515/99896382-29176080-2cb6-11eb-8c7c-ff29e0e4a40f.PNG)
+![5](https://user-images.githubusercontent.com/42516515/99896397-35032280-2cb6-11eb-950c-ec0842c89707.PNG)
+![3](https://user-images.githubusercontent.com/42516515/99896393-2ddc1480-2cb6-11eb-88cd-f447a751c672.PNG)
 
 ## Requirements
 
