@@ -33,6 +33,7 @@ This eliminates the need for any trainer or expert’s intervention to know the 
 
 For development, you will need Node.js and a node global package, Yarn, installed in your environement.
 You also need to setup Firebase before running the project.
+You will also need to setup Firebase to be able to run the project. Without setting up the firebase you will just see white screen.
 
 ### Node
 - #### Node installation on Windows
